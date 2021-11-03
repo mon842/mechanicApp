@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+{% block body %}
+
+<h1><center>signup</center></h1>
+<form class="example" method="post" action="/signup" style="margin:auto;max-width:600px">
+    <input type="text" placeholder="Enter the name" name="name" id="name">
+    <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Password</label>
+        <input type="password" class="form-control" id="Password" name="Password">
+    </div>
+
+    <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">confirm Password</label>
+        <input type="password" class="form-control" id="cPassword1" name="cPassword">
+    </div>
+    <button type="submit" <i>Insert</i></button>
+</form>
+{% endblock %}
